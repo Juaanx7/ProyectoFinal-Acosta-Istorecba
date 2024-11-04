@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.logoNav {
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedorSobreNosotros, .contenedorImagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorSobreNosotros {
+  flex-direction: column;
+  padding: 50px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.textoSobreNosotros, .styleUbicacion {
+  text-align: center;
+  color: #343a40;
+}
+.textoSobreNosotros h2, .styleUbicacion h2 {
+  font-size: 1.5rem;
+}
+
+.styleSobreNosotros {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+.contenedorImagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .logoNav {
+    height: 20px;
+  }
+  h1 {
+    font-size: 1.5rem !important;
+    margin: 20px 0 !important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .textoSobreNosotros h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .logoNav {
+    height: 25px;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .textoSobreNosotros h2 {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 992px) {
+  .logoNav {
+    height: 30px;
+  }
+  .textoSobreNosotros h2 {
+    font-size: 1.5rem;
+  }
+}
+.btn {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn:hover {
+  background-color: #328ef0;
+  transform: scale(1.05);
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=main.css.map */

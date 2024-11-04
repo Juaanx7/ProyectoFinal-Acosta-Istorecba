@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .logoNav {
+        height: $logo-height-small;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+        margin: 20px 0 !important; 
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .textoSobreNosotros h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .logoNav {
+        height: $logo-height-medium;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .textoSobreNosotros h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .logoNav {
+        height: $logo-height-large;
+    }
+    .textoSobreNosotros h2 {
+        font-size: 1.5rem;
+    }
+}

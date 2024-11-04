@@ -5,9 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Link al css:-->
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/main.css">
   <!-- Link Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Link a AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
   <title>Accesorios</title>
 </head>
 
@@ -42,7 +44,7 @@
   <div class="container my-5">
     <div class="row">
       <!-- Card 1: Cargador -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/cargador.webp" class="card-img-top img-fluid" alt="Cargador">
           <div class="card-body">
@@ -53,7 +55,7 @@
         </div>
       </div>
       <!-- Card 2: Apple Watch -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/appleWatch.jpg" class="card-img-top img-fluid" alt="Apple Watch">
           <div class="card-body">
@@ -64,7 +66,7 @@
         </div>
       </div>
       <!-- Card 3: Apple Watch 2 -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/appleWatch2.jpg" class="card-img-top img-fluid" alt="Apple Watch 2">
           <div class="card-body">
@@ -75,7 +77,7 @@
         </div>
       </div>
       <!-- Card 4: AirPods -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/airpods.jpg" class="card-img-top img-fluid" alt="AirPods">
           <div class="card-body">
@@ -86,7 +88,7 @@
         </div>
       </div>
       <!-- Card 5: AirPods 2 -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/airpods2.jpg" class="card-img-top img-fluid" alt="AirPods 2">
           <div class="card-body">
@@ -97,7 +99,7 @@
         </div>
       </div>
       <!-- Card 6: Fundas -->
-      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4" data-aos="fade-up">
         <div class="card h-100">
           <img src="../assets/fundas.webp" class="card-img-top img-fluid" alt="Fundas">
           <div class="card-body">
@@ -110,6 +112,15 @@
     </div>
   </div>
 
+  <!-- Scripts Bootstrap, jQuery y AOS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  <script>
+    // Inicializar AOS
+    AOS.init();
+  </script>
 </body>
 
 </html>
