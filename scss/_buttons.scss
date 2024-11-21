@@ -1,0 +1,34 @@
+/* Estilos personalizados para los botones */
+a.btn {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: linear-gradient(135deg, #C0D6DF, #E8DAB2);
+    color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  a.btn:hover {
+    background: linear-gradient(135deg, #E8DAB2, #C0D6DF);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  a.btn:focus {
+    outline: none;
+    border-color: #328ef0;
+  }
+  
+  a.btn:disabled {
+    background: #e0e0e0;
+    color: #aaa;
+    cursor: not-allowed;
+    box-shadow: none;
+    border: 2px solid #ccc;
+  }
+  

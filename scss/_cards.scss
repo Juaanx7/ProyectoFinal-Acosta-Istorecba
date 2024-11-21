@@ -1,0 +1,37 @@
+/*Estilo para las cards*/
+.card {
+    border: none;
+    background: linear-gradient(135deg, #E8DAB2, #C0D6DF);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    .card-img-top {
+      border-bottom: 2px solid #000000;
+    }
+  
+    .card-body {
+      text-align: center;
+      padding: 20px;
+  
+      .card-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+  
+      .card-text {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.5;
+      }
+    }
+  }
+  

@@ -2,16 +2,20 @@
     .logoNav {
         height: $logo-height-small;
     }
+
     h1 {
-        font-size: 1.5rem !important;
-        margin: 20px 0 !important; 
+        font-size: 1.5rem;
+        margin: 20px 0;
     }
+
     .navbar-nav {
         text-align: center;
     }
+
     .card {
         margin-bottom: 20px;
     }
+
     .textoSobreNosotros h2 {
         font-size: 1.2rem;
     }
@@ -21,12 +25,15 @@
     .logoNav {
         height: $logo-height-medium;
     }
+
     h1 {
         font-size: 1.8rem;
     }
+
     .container {
         padding: 0 20px;
     }
+
     .textoSobreNosotros h2 {
         font-size: 1.4rem;
     }
@@ -36,7 +43,9 @@
     .logoNav {
         height: $logo-height-large;
     }
+
     .textoSobreNosotros h2 {
         font-size: 1.5rem;
     }
 }
+
